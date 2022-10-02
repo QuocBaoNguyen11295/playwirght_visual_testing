@@ -4,7 +4,7 @@
   "description": "Visual testing with playwright",
   "main": "index.js",
   "scripts": {
-    "pw:test": "playwright test --config=playwright.config.ts --reporter=html",
+    "pw:test": "playwright test --config=visual.config.ts --reporter=html",
     "pw:show-report" : "playwright show-report"
   },
   "repository": {
